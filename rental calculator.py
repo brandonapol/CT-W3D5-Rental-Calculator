@@ -1,18 +1,3 @@
-# class LinkedListNode():
-#     def __init__(self,value):
-#         self.value = value
-#         self.next = None
-#     def traverseList(self):
-#         node=self
-#         while node != None:
-#             print(node.value)
-#             node=node.next
-# node1 = LinkedListNode('Mon')
-# node2 = LinkedListNode('Tues')
-# node3 = LinkedListNode('Wed')
-# node1.next=node2
-# node2.next=node3
-# node1.traverseList()
 
 class Calculator():
 
@@ -63,12 +48,6 @@ class Calculator():
         annual_cash_flow = self.cashflowed * 12
         cash_return = (annual_cash_flow / total_investment) * 100
         print(f"Total investment: {total_investment} \nAnnual Cash Flow: {annual_cash_flow} \nTotal Cash Return: {cash_return}")
-
-    # def nodemaker(self, other stuff)
-    #make nodes for different properties, maybe compare home ROIs
-    #Sort based on various criteria
-
-    #blackjack, hangman
 
 def execute():
     my_total = Calculator()
